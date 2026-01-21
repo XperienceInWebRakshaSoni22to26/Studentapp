@@ -8,7 +8,7 @@ import superadminRouter from "./routes/superadminroutes.js";
 
 const app = express();
 app.use(cors({
-    origin: ["http://localhost:5173","https://studentapp-hwb061nkd-rakshas-projects-cc99257c.vercel.app/"],
+    origin: ["http://localhost:5173","https://studentapp-hwb061nkd-rakshas-projects-cc99257c.vercel.app"],
     
     credentials: true,
 }));
